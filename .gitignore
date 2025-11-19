@@ -1,0 +1,4 @@
+# compiler artifacts
+a.out
+*.o
+*.d
