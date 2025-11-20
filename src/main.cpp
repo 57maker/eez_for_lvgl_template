@@ -42,10 +42,8 @@ int main(int args, char **argv)
 
     ui_init();
 
-    struct timeval start, counter_start;
+    struct timeval start;
     gettimeofday(&start, NULL);
-    counter_start = start;
-    int count = 0;
     while (1) {
         lv_task_handler();
         ui_tick();
